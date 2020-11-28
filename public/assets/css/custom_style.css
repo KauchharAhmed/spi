@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+  #userinfo{
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}

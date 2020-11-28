@@ -1,0 +1,33 @@
+ IMPORTANT STATUS NUMBER
+ #------- database table user ----------#
+
+ Not Transfer status = 0
+ Transfer status     = 1
+
+ #------- end database table user ----------#
+ #--------------- semister -----------------#
+  status 1 = current semister
+  status 2 = non current semister
+ #--------------- end semister --------------------#
+ #--------------- subject status ------------------#
+  status 0 = active subject
+  status 1 = non active subject
+ #--------------- end subject status ------------#
+
+ #-------------- user type status----------------#
+   type 1 = superadmin
+   type 2 = admin
+   type 3 = teacher
+   type 6 = department head
+   type 7 = student
+ #--------------end user type status-------------#
+ #---------------student table-------------------#
+  // put rfid card then detarmin the student current semister for that
+  1 = active semister of student
+  2 = inactive semister of student
+ #---------------end student table-------------------#
+ #--------------- student status student table-------------#
+ active student       = 0
+ inactive student     = 1 (many case that inactive student that are transfer,died etc)
+ #--------------- end student table --------#
+

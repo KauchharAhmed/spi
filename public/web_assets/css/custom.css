@@ -1,0 +1,447 @@
+/* 
+	Author : Asian It Inc.;
+	Version :v.1;
+	Designer: Md Siam Uddin (siamuddin.me);
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700');
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	background: url('../../../web_images/pattern.png');
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Arimo;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.carousel-item img{
+	height: 250px;
+	width: 100%;
+}
+
+.main_header{
+	position: relative;
+}
+.centered {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: white;
+}
+
+.site_name{
+	text-align: center!important;
+	/* font-size: 2vw; */
+    font-weight: bold;
+    text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;
+    text-decoration: none;
+    color: white;
+}
+.site_name:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.slogan{
+	text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;
+	padding-left: 83px;
+	line-height: 0px;
+}
+
+.bg-customization{
+	background: #eeee;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}
+
+/*
+ Customization Main Nav
+*/
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #5f6368;
+    letter-spacing: .25px;
+    border-right:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+    display: block;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	background-color:#1399BE; 
+	color: white;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #195087;
+}
+
+/* Dropdown On Hover show */
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    font-family: 'Roboto Slab', serif;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown-item{
+	color: #5f6368;
+}
+
+/* Dropdown submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar-toggler{
+	background-color:#1399BE; 
+}
+.navbar-toggler {
+    background-color: #117795;
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 82.3%;
+} */
+/* Main Content Section Start Here  */
+.notice{
+	margin-top: 15px;
+	border: 1px solid #eeeeee;
+	background: url("../../../web_images/notice_board_bg.png") repeat-x scroll left top transparent;
+        background-repeat: repeat-x;
+    background-image: url("../../../web_images/bg_notice_board.png");
+    background-repeat: no-repeat;
+    padding: 10px 0 20px 120px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	background-color:#1399BE; 
+    color: white;
+}
+
+.notice_board{
+	padding-left: 100px;
+}
+
+.notice_all{
+	padding: 10px;
+}
+
+/* Notice Section  */
+.notice_all ul li{
+	list-style: none;
+	font-size: 14px;
+	margin-left: 0px;
+	padding-left: 0px;
+	border-bottom: 1px dotted #000;
+}
+
+/* Notice Section  */
+.notice_board ul li{
+	list-style: none;
+	font-size: 14px;
+	margin-left: 0px;
+	padding-left: 0px;
+	border-bottom: 1px dotted #000;
+}
+
+.notice_all ul li a{
+	color: black;
+}
+
+.notice_board ul li a{
+	color: black;
+}
+.notice_all ul li a:hover{
+	color: blue;
+	text-decoration: none;
+}
+.notice_board ul li a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+.mg-10{
+	margin-top: 10px;
+}
+
+.mg-15{
+	margin-top: 15px;
+}
+
+.content_header h4{
+	padding: 5px;
+	color: white;
+}
+
+/* Profile Section  */
+.profile{
+	border: 1px solid #e3e3e3;
+}
+.profile-header h4{
+	padding: 5px;
+    color: white;
+    font-size: 22px;
+}
+
+.profile a{
+	padding: 8px;
+	line-height: 5px;
+	font-size: 14px;
+}
+.profile p{
+	padding:0px 8px;
+}
+.profile a:hover{
+	text-decoration: none;
+}
+
+.news_post{
+	border: 1px solid #e3e3e3;
+}
+
+.news_text{
+	padding: 7px;
+}
+
+.gallery_image{
+	padding: 5px;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 5px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 86%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.gallery_image:hover .overlay {
+  opacity: 1;
+}
+
+.link_list{
+	padding: 0px 8px;
+}
+
+.imp_link a{
+	font-size: 12px;
+	color: black;
+}
+
+.border_bottom{
+	border: 1px solid red;
+}
+
+.imp_link a:hover{
+	color: gray;
+	text-decoration: none;
+}
+.imp_link{
+	border:1px solid #e3e3e3;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+hr {
+   border: 0!important;
+   		border-top-color: currentcolor!important;
+        border-top-style: none!important;
+        border-top-width: 0px!important;
+    border-top: 1px solid rgba(0,0,0,.1)!important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.logo {
+   		color: #5f6368;
+	}
+	.logo:hover{
+	  	background: #007bff ;
+	   	text-decoration: none;
+	   	background: none;
+	}
+	.centered {
+	  position: absolute;
+	  top: 10px;
+	  color: white;
+	}
+	.slogan{
+		margin-top: -7px;
+		text-shadow: -1px -1px 10px #333, 1px -1px 10px #333, -1px 1px 10px #333, 1px 1px 10px #333;
+		line-height: 17px;
+		padding-left: 0px;
+		padding-right: 2px;
+	}
+	/* .sticky {
+	  position: fixed;
+	  top: 0;
+	  width: 92%;
+	} */
+
+	/* The overlay effect - lays on top of the container and over the image */
+	.overlay {
+	  position: absolute;
+	  bottom: 5px;
+	  background: rgb(0, 0, 0);
+	  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+	  color: #f1f1f1;
+	  width: 88.5%;
+	  transition: .3s ease;
+	  opacity:0;
+	  color: white;
+	  font-size: 15px;
+	  padding: 20px;
+	  text-align: center;
+	}
+
+	/* When you mouse over the container, fade in the overlay title */
+	.gallery_image:hover .overlay {
+	  opacity: 1;
+	}
+
+}
+
+.footer_content{
+	background: #EBEBEB;
+	padding: 10px;
+	display: block;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.header_section{
+	background: rgba(247, 247, 247, 1);
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.page_headers h4{
+	color: #776c6ce8;
+}
+.page_links{
+	color: rgba(0,0,0,.3);
+	text-align: right;
+}
+.page_links a{
+	color: rgba(0,0,0,.3);
+}
+
+.contact_form{
+	padding-right: 8px;
+}
+
+.box-content{
+	/*//margin-left: 16px;*/
+	background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    color: #000;
+   -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 19px;
+    width: 400px;
+    float: left;
+    margin-left: 20px;
+}
+
+.non_style li{
+	margin: 2px 0 0 20px;
+    font-size: 1.2em;
+    list-style-image: url("../../../public/web_assets/icons/bullet_arrow.png");
+}
+
+.non_style li a{
+	font-size: 14px;
+    text-decoration: none;
+    display: block;
+    color: #000000c9!important ;
+}
+
+.non_style li a:hover{
+	color: #000000ed ;
+	text-decoration: underline;
+}
+
+#break{
+	display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+  .box-content{
+  	/*//margin-left: 16px;*/
+	background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    color: #000;
+   -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 19px;
+    width: 320px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .notice_board
+  {
+	padding-left: 0px;
+  }
+
+  .notice
+  {
+	margin-top: 15px;
+	/*border: 1px solid #eeeeee;*/
+	background: url("../../../web_images/notice_board_bg.png") repeat-x scroll left top transparent;
+        background-repeat: repeat-x;
+   /* background-image: url("../../../web_images/bg_notice_board.png");*/
+    background-repeat: no-repeat;
+    padding: 10px 10px 15px 18px;
+  }
+
+  #break{
+	clear: both;
+    display: block;
+   }
+
+
+}
